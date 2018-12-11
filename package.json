@@ -1,0 +1,11 @@
+{
+  "name": "pug-stylus",
+  "version": "0.0.1",
+  "description": "Pug filter for stylus",
+  "author": "billypon <billypon@gmail.com>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/billypon/pug-stylus.git"
+  }
+}
