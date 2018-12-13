@@ -4,8 +4,8 @@ module.exports = function (callback) {
   return function (str, options) {
     let style;
     let error;
-    const renderer = stylus(str);
-      .set 'compress', options.compress == undefined or options.compress
+    const renderer = stylus(str)
+      .set('compress', options.compress === undefined || options.compress);
     if (callback) {
       callback(renderer, options, str);
     }
