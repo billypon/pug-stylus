@@ -16,8 +16,8 @@ pug.filters.stylus = require('pug-stylus')();
 Set filename for stylus when render
 
 ```javascript
-pug.filters.stylus = require('pug-stylus')(function (render, options) {
-  render.set('filename', options.filename);
+pug.filters.stylus = require('pug-stylus')(function (options, args) {
+  options.filename = args.filename;
 });
 ```
 
