@@ -1,5 +1,13 @@
 ## Setup filter
 
+Install dependencies
+
+```sh
+npm install stylus
+```
+
+Set as pug filter
+
 ```javascript
 const pug = require('pug');
 pug.filters.stylus = require('pug-stylus')();
