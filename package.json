@@ -1,6 +1,6 @@
 {
   "name": "pug-stylus",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "Pug filter for stylus",
   "author": "billypon <billypon@gmail.com>",
   "license": "MIT",
