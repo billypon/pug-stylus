@@ -15,7 +15,7 @@ module.exports = function (callback) {
         delete err.input;
         error = err;
       } else {
-        style = !options.wrap ? css : '<style>' + css '</style>';
+        style = !options.wrap ? css : '<style>' + css + '</style>';
       }
     });
     if (error) {
